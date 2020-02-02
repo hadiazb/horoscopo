@@ -9,11 +9,11 @@ body{
   background: linear-gradient(150deg, rgb(235, 45, 45), white);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 92vh;
+  height: 200vh;
   color: white;
 }
 .container{
-  max-width: 50%;
+  max-width: 70%;
   margin: 50px auto;
 }
 .container h4{
@@ -54,8 +54,14 @@ body{
 }
 .form{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.respuestas {
-
+.formulario{
+  width: 40%;
+  margin: 10px;
+}
+.respuestas{
+  width: 60%;
+  margin: 10px;
+  padding: 10px;
 }
